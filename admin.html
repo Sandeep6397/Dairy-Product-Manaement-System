@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Staff Login</title>
+	<link rel="stylesheet" href="admin.css">
+
+	<script type="text/javascript">
+		
+		function validation() {
+			var Id=document.getElementById('id');
+			var Password=document.getElementById('pass');
+
+			if(Id.value.trim() == "" || Password.value.trim() == "" )
+			{
+				alert("All fields are required");
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+
+		}
+
+	</script>
+
+</head>
+
+
+<body >
+	
+	<div class="container">
+		<div class="">
+			<h1>Staff Login</h1>
+		</div>
+			<form onsubmit="return validation()" action="admin.php" method="post">
+			<label for="Staff Id">Staff ID</label>
+			<input  id="id" type="text" name="Sid" placeholder="Enter Staff ID" >
+			<label for="Password">Password</label>
+			<input id="pass" type="password" name="password" placeholder="Enter Password" >
+			<button type="submit" name="button">Login</button>
+
+		</form>
+
+	</div>
+
+</body>
+
+</html>
