@@ -1,4 +1,4 @@
-                        ------------------------------------DAIRY MANAGEMENT SYSTEM----------------------------------------
+                        ------------------------------------DAIRY PRODUCT MANAGEMENT SYSTEM----------------------------------------
 
 
 Dairy Management System is an web application designed to manage activities related  to dairy product such as Milk, Curd, Butter, etc.
